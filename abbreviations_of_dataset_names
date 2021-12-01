@@ -1,0 +1,26 @@
+Autosomes in both M and F for SNPs across all autosomal chromosomes
+A_B_AC 
+
+Autosomes in both M and F for SNPs per autosomal chromosome
+A_B_PC 
+
+Autosomes in F for SNPs across all autosomal chromosomes
+A_F_AC 
+
+Autosomes in F for SNPs per autosomal chromosome
+A_F_PC 
+
+Autosomes in M for SNPs across all autosomal chromosomes
+A_M_AC 
+
+Autosomes in M for SNPs per autosomal chromosome
+A_M_PC 
+
+X chromosome in both M and F
+X_B 
+
+X chromosome in F
+X_F 
+
+X chromosome in M
+X_M 
