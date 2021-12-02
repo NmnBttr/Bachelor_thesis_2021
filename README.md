@@ -12,7 +12,7 @@ Please clone the repository Bachelor_thesis_2021 on git and navigate to the dire
 
 ```
 $ git clone https://github.com/NmnBttr/Bachelor_thesis_2021.git
-$ cd Bachelor_thesis_2021
+$ cd Bachelor_thesis_2021/
 ```
 
 For running the python scripts Python >= 3.6.0 is required and follow the terminal instructions. For example use pipenv for installing the required packages:
@@ -26,23 +26,25 @@ $ pipenv --python python3
 **Steps:**
 1. Data Pre-processing and Filtering
 
-> /bash_scripts/data_filtering.sh
+> bash_scripts/data_filtering.sh
 
 2. Splitting the dataset
 
-> /bash_scripts/data_splitting.sh
+> bash_scripts/data_splitting.sh
 
 3. Running fastSTURTURE using Snakemake + get empty K's + get optimal K
 
-> /bash_scripts/run_fastSTRUCTURE_get_emptyK_chooseK.sh
+> bash_scripts/run_fastSTRUCTURE_get_emptyK_chooseK.sh
 
 4. PONG plot for fastSTRUCTURE output
 
-> /bash_scripts/pong_plotting.sh
+> bash_scripts/pong_plotting.sh
 
 5. Finding the optimal match between autosomes and X chromosome runs.
 
-```$ python3 match_aut_with_x.py```
+```
+cd python3_scripts/
+$ python3 match_aut_with_x.py```
 
 6. Calculating difference of the admixture estimation for matching autosomes and X chromosome runs.
 
@@ -63,6 +65,8 @@ $ pipenv --python python3
 10. Comparing sex-bias estimates across different markers (creating table + plot)
 
 ```$ python3 average_Khoisan.py```
+
+The directory `\python3_scripts\supplementary` contains additional python3 scripts for plotting and creating supplementary figures and tables for this thesis.
 
 ## Author
 
