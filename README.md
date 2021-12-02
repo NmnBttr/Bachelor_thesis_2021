@@ -44,7 +44,8 @@ $ pipenv --python python3
 
 ```
 cd python3_scripts/
-$ python3 match_aut_with_x.py```
+$ python3 match_aut_with_x.py
+```
 
 6. Calculating difference of the admixture estimation for matching autosomes and X chromosome runs.
 
@@ -66,7 +67,7 @@ $ python3 match_aut_with_x.py```
 
 ```$ python3 average_Khoisan.py```
 
-The directory `\python3_scripts\supplementary` contains additional python3 scripts for plotting and creating supplementary figures and tables for this thesis.
+The directory `python3_scripts\supplementary` contains additional python3 scripts for plotting and creating supplementary figures and tables for this thesis.
 
 ## Author
 
